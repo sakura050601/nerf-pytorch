@@ -200,7 +200,7 @@ def render_path(
     return rgbs, disps
 
 
-def create_nerf(args):
+def create_nerf(args, device):
     """Instantiate NeRF's MLP model."""
     embed_fn, input_ch = get_embedder(args.multires, args.i_embed)
 
@@ -725,6 +725,33 @@ def train():
         config=vars(args),
     )
 
+    import torch
+    import platform
+
+    system = platform.system()  # "Darwin" = macOS, "Linux", "Windows" 等
+
+    if system == "Darwin":
+        # —— 在 Mac 上：优先且“强制”使用 MPS ——
+        use_mps = hasattr(torch.backends, "mps") and torch.backends.mps.is_available()
+        if not use_mps:
+            raise RuntimeError(
+                "Running on macOS but MPS is not available. Please check PyTorch/macOS version compatibility."
+            )
+        device = torch.device("mps")
+        torch.set_default_device(device)
+    else:
+        # —— 非 Mac：正常走 CUDA -> CPU 的逻辑 ——
+        if torch.cuda.is_available():
+            device = torch.device("cuda")
+            torch.set_default_device(device)
+        else:
+            device = torch.device("cpu")
+            torch.set_default_device(device)
+
+    torch.set_default_dtype(torch.float32)
+    wandb.log({"System": system})
+    wandb.log({"Device": str(device)})
+
     # Load data
     K = None
     if args.dataset_type == "llff":
@@ -839,7 +866,8 @@ def train():
 
     # Create nerf model
     render_kwargs_train, render_kwargs_test, start, grad_vars, optimizer = create_nerf(
-        args
+        args,
+        device=device,
     )
     global_step = start
 
@@ -1161,26 +1189,31 @@ def train():
         global_step += 1
 
 
+# if __name__ == "__main__":
+#     import torch
+
+#     if hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
+#         torch.set_default_device("mps")
+#     elif torch.cuda.is_available():
+#         torch.set_default_device("cuda")
+#     else:
+#         torch.set_default_device("cpu")
+
+#     # 设定默认 dtype（等价于原来 FloatTensor 的精度）
+#     torch.set_default_dtype(torch.float32)
+
+#     device = torch.device(
+#         "mps"
+#         if getattr(torch.backends, "mps", None) and torch.backends.mps.is_available()
+#         else "cuda" if torch.cuda.is_available() else "cpu"
+#     )
+#     wandb.log({"Using device": str(device)})
+#     # torch.set_default_tensor_type('torch.cuda.FloatTensor')
+
+#     train()
+#     wandb.finish()
+
 if __name__ == "__main__":
-    import torch
-
-    if hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
-        torch.set_default_device("mps")
-    elif torch.cuda.is_available():
-        torch.set_default_device("cuda")
-    else:
-        torch.set_default_device("cpu")
-
-    # 设定默认 dtype（等价于原来 FloatTensor 的精度）
-    torch.set_default_dtype(torch.float32)
-
-    device = torch.device(
-        "mps"
-        if getattr(torch.backends, "mps", None) and torch.backends.mps.is_available()
-        else "cuda" if torch.cuda.is_available() else "cpu"
-    )
-    print("Using device:", device)
-    # torch.set_default_tensor_type('torch.cuda.FloatTensor')
 
     train()
     wandb.finish()
