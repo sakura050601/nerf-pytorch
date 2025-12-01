@@ -7,7 +7,8 @@ import numpy as np
 
 # Misc
 img2mse = lambda x, y : torch.mean((x - y) ** 2)
-mse2psnr = lambda x : -10. * torch.log(x) / torch.log(torch.Tensor([10.]))
+mse2psnr = lambda x: -10.0 * torch.log10(torch.clamp(x, min=1e-10))
+# mse2psnr = lambda x: -10.0 * torch.log10(torch.clamp(x, min=1e-10))
 to8b = lambda x : (255*np.clip(x,0,1)).astype(np.uint8)
 
 
@@ -205,7 +206,7 @@ def sample_pdf(bins, weights, N_samples, det=False, pytest=False):
         u = torch.linspace(0., 1., steps=N_samples)
         u = u.expand(list(cdf.shape[:-1]) + [N_samples])
     else:
-        u = torch.rand(list(cdf.shape[:-1]) + [N_samples])
+        u = torch.rand(list(cdf.shape[:-1]) + [N_samples], device=cdf.device, dtype=cdf.dtype)
 
     # Pytest, overwrite u with numpy's fixed random numbers
     if pytest:

@@ -6,4 +6,14 @@
 *.npz
 *.dae
 data/*
-logs/*
+# logs/*
+source_data/
+wandb/
+.venv/
+.DS_Store
+*.bak
+*.tmp
+*.swp
+*.swo
+.vscode/
+.idea/

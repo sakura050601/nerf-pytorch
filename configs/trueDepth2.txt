@@ -1,0 +1,29 @@
+expname = blender_paper_truedepth2
+basedir = ./logs
+datadir = ./data/trueDepth_2
+dataset_type = blender
+
+no_batching = True
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+
+# ↓↓↓ 每条 ray 上的采样数降一点
+N_samples = 32
+N_importance = 32
+
+# ↓↓↓ 每步用更少的 ray
+N_rand = 512
+
+precrop_iters = 200    # 中心裁剪阶段也缩短一点
+precrop_frac = 0.5
+
+half_res = True        # 保持半分辨率，已经是在加速了
+
+# ↓↓↓ 渲染 test set 时用低分辨率预览
+render_factor = 4
+
+# ↓↓↓ 提前保存 testset，方便你早看到效果
+i_testset = 1000       # 每 1000 iter 导出一次 test 图
+# i_video 保持默认 50000，不用管它
