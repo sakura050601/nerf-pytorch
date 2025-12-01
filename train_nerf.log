@@ -11759,3 +11759,556 @@ wandb-core(32821) MallocStackLogging: can't turn off malloc stack logging becaus
   4%|▍         | 8456/190001 [49:36:37<2264:35:51, 44.91s/it]wandb-core(32953) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
 wandb-core(33098) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
 wandb-core(33262) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8457/190001 [49:37:26<2338:29:36, 46.37s/it]wandb-core(33559) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33651) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33666) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33679) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8458/190001 [49:38:23<2492:30:14, 49.43s/it]wandb-core(33687) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33792) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8459/190001 [49:38:56<2249:10:52, 44.60s/it]wandb-core(33794) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33795) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8460/190001 [49:39:25<2014:43:11, 39.95s/it]wandb-core(33796) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33801) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8461/190001 [49:39:50<1781:54:09, 35.34s/it]wandb-core(33805) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33813) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8462/190001 [49:40:22<1735:27:47, 34.42s/it]wandb-core(33815) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33818) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8463/190001 [49:40:46<1574:56:00, 31.23s/it]wandb-core(33819) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8464/190001 [49:41:11<1475:26:21, 29.26s/it]wandb-core(33820) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8465/190001 [49:41:30<1329:16:04, 26.36s/it]wandb-core(33821) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33826) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8466/190001 [49:41:54<1289:33:45, 25.57s/it]wandb-core(33839) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33866) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8467/190001 [49:42:21<1307:34:28, 25.93s/it]wandb-core(33880) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33904) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8468/190001 [49:42:55<1427:03:57, 28.30s/it]wandb-core(33910) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33920) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8469/190001 [49:43:26<1468:39:36, 29.13s/it]wandb-core(33923) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33929) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8470/190001 [49:43:50<1404:36:54, 27.86s/it]wandb-core(33931) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8471/190001 [49:44:12<1302:06:23, 25.82s/it]wandb-core(33937) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33967) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8472/190001 [49:44:33<1240:32:51, 24.60s/it]wandb-core(33978) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33979) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8473/190001 [49:45:03<1322:16:24, 26.22s/it]wandb-core(33983) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8474/190001 [49:45:25<1253:02:12, 24.85s/it]wandb-core(33985) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(33995) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8475/190001 [49:45:47<1207:55:55, 23.96s/it]wandb-core(34011) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34019) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8476/190001 [49:46:19<1336:32:20, 26.51s/it]wandb-core(34041) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8477/190001 [49:46:41<1267:43:16, 25.14s/it]wandb-core(34047) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34059) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8478/190001 [49:47:08<1285:21:41, 25.49s/it]wandb-core(34063) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34072) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8479/190001 [49:47:31<1254:55:57, 24.89s/it]wandb-core(34074) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8480/190001 [49:47:53<1207:56:53, 23.96s/it]wandb-core(34077) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34080) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8481/190001 [49:48:17<1209:21:01, 23.98s/it]wandb-core(34081) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8482/190001 [49:48:38<1163:18:58, 23.07s/it]wandb-core(34085) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8483/190001 [49:48:56<1085:45:31, 21.53s/it]wandb-core(34091) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34096) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8484/190001 [49:49:18<1094:04:52, 21.70s/it]wandb-core(34099) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8485/190001 [49:49:34<1017:50:34, 20.19s/it]wandb-core(34110) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8486/190001 [49:49:53<992:50:51, 19.69s/it] wandb-core(34113) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8487/190001 [49:50:15<1020:14:42, 20.23s/it]wandb-core(34122) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34152) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8488/190001 [49:50:37<1058:15:43, 20.99s/it]wandb-core(34177) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34185) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8489/190001 [49:51:03<1124:14:16, 22.30s/it]wandb-core(34187) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8490/190001 [49:51:22<1076:04:52, 21.34s/it]wandb-core(34192) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8491/190001 [49:51:46<1113:14:55, 22.08s/it]wandb-core(34201) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34212) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8492/190001 [49:52:11<1171:07:48, 23.23s/it]wandb-core(34224) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34236) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8493/190001 [49:52:37<1204:52:22, 23.90s/it]wandb-core(34251) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34255) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8494/190001 [49:53:09<1336:12:42, 26.50s/it]wandb-core(34259) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34260) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8495/190001 [49:53:36<1340:25:29, 26.59s/it]wandb-core(34263) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34280) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8496/190001 [49:54:03<1346:21:09, 26.70s/it]wandb-core(34281) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8497/190001 [49:54:24<1256:17:17, 24.92s/it]wandb-core(34284) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34294) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8498/190001 [49:54:50<1270:39:34, 25.20s/it]wandb-core(34298) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8499/190001 [49:55:15<1263:27:23, 25.06s/it]wandb-core(34309) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34314) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8500/190001 [49:55:37<1219:23:10, 24.19s/it]wandb-core(34339) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+                                                             [TRAIN] Iter: 18500 Loss: 0.033773086965084076  PSNR: 17.67426300048828
+  4%|▍         | 8500/190001 [49:55:57<1219:23:10, 24.19s/it]wandb-core(34353) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34374) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34380) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34393) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34400) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34404) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34424) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34439) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34444) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34454) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34457) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34475) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34543) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34549) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34563) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34574) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34585) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34588) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34595) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34597) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34601) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34619) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34647) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34649) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34655) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34656) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34667) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34671) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34691) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34728) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34729) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34732) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34748) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34753) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8501/190001 [50:04:20<8764:24:29, 173.84s/it]wandb-core(34759) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8502/190001 [50:04:44<6505:21:39, 129.03s/it]wandb-core(34773) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34775) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8503/190001 [50:05:01<4809:00:51, 95.39s/it] wandb-core(34779) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8504/190001 [50:05:18<3615:56:18, 71.72s/it]wandb-core(34786) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8505/190001 [50:05:35<2789:06:09, 55.32s/it]wandb-core(34789) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8506/190001 [50:05:51<2191:34:27, 43.47s/it]wandb-core(34792) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8507/190001 [50:06:12<1862:04:31, 36.93s/it]wandb-core(34805) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8508/190001 [50:06:30<1577:40:46, 31.29s/it]wandb-core(34824) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34827) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8509/190001 [50:06:47<1354:29:05, 26.87s/it]wandb-core(34830) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8510/190001 [50:07:03<1198:48:23, 23.78s/it]wandb-core(34831) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8511/190001 [50:07:19<1069:44:03, 21.22s/it]wandb-core(34836) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8512/190001 [50:07:35<988:01:31, 19.60s/it] wandb-core(34837) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8513/190001 [50:07:51<941:20:32, 18.67s/it]wandb-core(34847) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8514/190001 [50:08:10<953:05:28, 18.91s/it]wandb-core(34850) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8515/190001 [50:08:27<916:29:09, 18.18s/it]wandb-core(34854) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8516/190001 [50:08:44<893:48:25, 17.73s/it]wandb-core(34859) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34895) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8517/190001 [50:09:05<941:24:42, 18.67s/it]wandb-core(34901) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8518/190001 [50:09:21<906:56:45, 17.99s/it]wandb-core(34911) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8519/190001 [50:09:37<876:37:13, 17.39s/it]wandb-core(34920) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8520/190001 [50:09:53<859:17:50, 17.05s/it]wandb-core(34933) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34949) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8521/190001 [50:10:22<1045:01:18, 20.73s/it]wandb-core(34955) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8522/190001 [50:10:39<977:07:55, 19.38s/it] wandb-core(34958) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8523/190001 [50:10:56<952:41:58, 18.90s/it]wandb-core(34960) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8524/190001 [50:11:11<893:32:15, 17.73s/it]wandb-core(34961) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8525/190001 [50:11:26<847:00:42, 16.80s/it]wandb-core(34963) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8526/190001 [50:11:42<828:31:59, 16.44s/it]wandb-core(34965) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8527/190001 [50:11:58<829:01:39, 16.45s/it]wandb-core(34973) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8528/190001 [50:12:14<818:13:53, 16.23s/it]wandb-core(34975) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(34987) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35017) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8529/190001 [50:12:51<1128:21:50, 22.38s/it]wandb-core(35058) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35076) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8530/190001 [50:13:26<1320:26:21, 26.19s/it]wandb-core(35100) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35104) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35127) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8531/190001 [50:14:13<1639:44:43, 32.53s/it]wandb-core(35150) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35174) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35186) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8532/190001 [50:14:47<1655:57:05, 32.85s/it]wandb-core(35194) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35204) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8533/190001 [50:15:20<1660:57:18, 32.95s/it]wandb-core(35206) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8534/190001 [50:15:42<1493:39:48, 29.63s/it]wandb-core(35219) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35223) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8535/190001 [50:16:02<1353:51:42, 26.86s/it]wandb-core(35238) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8536/190001 [50:16:20<1212:32:05, 24.05s/it]wandb-core(35248) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8537/190001 [50:16:38<1133:26:34, 22.49s/it]wandb-core(35252) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8538/190001 [50:16:58<1082:32:15, 21.48s/it]wandb-core(35255) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35318) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8539/190001 [50:17:16<1037:09:44, 20.58s/it]wandb-core(35390) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8540/190001 [50:17:35<1011:08:47, 20.06s/it]wandb-core(35455) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8541/190001 [50:17:52<959:24:11, 19.03s/it] wandb-core(35518) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8542/190001 [50:18:10<947:54:15, 18.81s/it]wandb-core(35555) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8543/190001 [50:18:28<942:26:26, 18.70s/it]wandb-core(35599) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8544/190001 [50:18:44<901:25:27, 17.88s/it]wandb-core(35610) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35651) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8545/190001 [50:19:05<951:27:14, 18.88s/it]wandb-core(35702) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8546/190001 [50:19:23<933:59:23, 18.53s/it]wandb-core(35721) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8547/190001 [50:19:41<925:21:15, 18.36s/it]wandb-core(35733) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35749) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8548/190001 [50:20:02<965:11:26, 19.15s/it]wandb-core(35774) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8549/190001 [50:20:29<1075:02:48, 21.33s/it]wandb-core(35776) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35784) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  4%|▍         | 8550/190001 [50:20:50<1080:10:29, 21.43s/it]wandb-core(35802) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35810) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8551/190001 [50:21:17<1164:53:18, 23.11s/it]wandb-core(35880) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8552/190001 [50:21:44<1226:01:44, 24.32s/it]wandb-core(35882) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35885) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8553/190001 [50:22:08<1217:23:31, 24.15s/it]wandb-core(35887) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8554/190001 [50:22:29<1165:19:50, 23.12s/it]wandb-core(35896) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35899) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8555/190001 [50:22:50<1141:26:02, 22.65s/it]wandb-core(35902) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35907) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8556/190001 [50:23:17<1196:59:58, 23.75s/it]wandb-core(35908) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8557/190001 [50:23:44<1254:13:43, 24.88s/it]wandb-core(35911) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35916) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8558/190001 [50:24:10<1274:41:19, 25.29s/it]wandb-core(35918) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35931) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8559/190001 [50:24:35<1262:22:22, 25.05s/it]wandb-core(35944) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(35966) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8560/190001 [50:25:07<1367:36:02, 27.13s/it]wandb-core(36030) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8561/190001 [50:25:30<1301:02:27, 25.81s/it]wandb-core(36097) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36167) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8562/190001 [50:25:50<1213:42:52, 24.08s/it]wandb-core(36218) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36241) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8563/190001 [50:26:16<1250:13:28, 24.81s/it]wandb-core(36290) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8564/190001 [50:26:37<1183:11:48, 23.48s/it]wandb-core(36303) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8565/190001 [50:26:54<1093:10:23, 21.69s/it]wandb-core(36310) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8566/190001 [50:27:10<1010:54:41, 20.06s/it]wandb-core(36312) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8567/190001 [50:27:26<943:32:01, 18.72s/it] wandb-core(36313) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8568/190001 [50:27:41<892:00:52, 17.70s/it]wandb-core(36314) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8569/190001 [50:27:57<854:54:40, 16.96s/it]wandb-core(36319) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8570/190001 [50:28:12<839:34:30, 16.66s/it]wandb-core(36322) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36337) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8571/190001 [50:28:34<916:12:18, 18.18s/it]wandb-core(36338) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8572/190001 [50:28:47<837:02:36, 16.61s/it]wandb-core(36339) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8573/190001 [50:29:03<820:57:32, 16.29s/it]wandb-core(36340) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8574/190001 [50:29:18<801:36:12, 15.91s/it]wandb-core(36343) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8575/190001 [50:29:33<789:46:46, 15.67s/it]wandb-core(36348) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8576/190001 [50:29:49<793:03:54, 15.74s/it]wandb-core(36349) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8577/190001 [50:30:04<788:34:59, 15.65s/it]wandb-core(36363) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8578/190001 [50:30:20<786:14:41, 15.60s/it]wandb-core(36366) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8579/190001 [50:30:35<781:07:07, 15.50s/it]wandb-core(36370) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8580/190001 [50:30:52<809:51:42, 16.07s/it]wandb-core(36372) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8581/190001 [50:31:08<797:08:35, 15.82s/it]wandb-core(36376) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8582/190001 [50:31:24<803:59:22, 15.95s/it]wandb-core(36380) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8583/190001 [50:31:42<836:51:03, 16.61s/it]wandb-core(36408) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36434) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8584/190001 [50:32:05<931:54:07, 18.49s/it]wandb-core(36453) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8585/190001 [50:32:23<933:29:04, 18.52s/it]wandb-core(36471) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36519) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8586/190001 [50:32:46<989:40:09, 19.64s/it]wandb-core(36544) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8587/190001 [50:33:14<1124:35:13, 22.32s/it]wandb-core(36548) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36557) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8588/190001 [50:33:40<1171:22:13, 23.24s/it]wandb-core(36566) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36567) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8589/190001 [50:34:05<1198:57:55, 23.79s/it]wandb-core(36568) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8590/190001 [50:34:23<1116:37:24, 22.16s/it]wandb-core(36570) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8591/190001 [50:34:39<1020:07:04, 20.24s/it]wandb-core(36577) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8592/190001 [50:34:53<935:29:15, 18.56s/it] wandb-core(36580) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8593/190001 [50:35:09<894:15:05, 17.75s/it]wandb-core(36581) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8594/190001 [50:35:23<830:34:38, 16.48s/it]wandb-core(36583) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8595/190001 [50:35:40<835:41:34, 16.58s/it]wandb-core(36585) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8596/190001 [50:35:56<829:40:17, 16.46s/it]wandb-core(36593) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8597/190001 [50:36:10<799:58:32, 15.88s/it]wandb-core(36594) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8598/190001 [50:36:24<770:41:06, 15.29s/it]wandb-core(36598) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8599/190001 [50:36:39<760:24:38, 15.09s/it]wandb-core(36603) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8600/190001 [50:36:55<768:32:03, 15.25s/it]wandb-core(36606) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+                                                            [TRAIN] Iter: 18600 Loss: 0.03532976657152176  PSNR: 17.46385955810547
+  5%|▍         | 8600/190001 [50:37:09<768:32:03, 15.25s/it]  5%|▍         | 8601/190001 [50:37:09<754:41:14, 14.98s/it]wandb-core(36607) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8602/190001 [50:37:24<759:03:57, 15.06s/it]wandb-core(36615) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8603/190001 [50:37:39<760:08:14, 15.09s/it]wandb-core(36619) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8604/190001 [50:37:58<820:20:25, 16.28s/it]wandb-core(36623) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8605/190001 [50:38:13<797:50:40, 15.83s/it]wandb-core(36626) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8606/190001 [50:38:30<817:23:07, 16.22s/it]wandb-core(36628) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36645) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8607/190001 [50:38:46<813:12:15, 16.14s/it]wandb-core(36665) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8608/190001 [50:39:06<872:21:19, 17.31s/it]wandb-core(36671) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8609/190001 [50:39:22<844:58:44, 16.77s/it]wandb-core(36673) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8610/190001 [50:39:38<832:12:33, 16.52s/it]wandb-core(36682) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8611/190001 [50:39:53<811:08:35, 16.10s/it]wandb-core(36685) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8612/190001 [50:40:08<799:20:58, 15.86s/it]wandb-core(36687) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8613/190001 [50:40:24<799:08:53, 15.86s/it]wandb-core(36691) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8614/190001 [50:40:45<877:23:12, 17.41s/it]wandb-core(36702) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36710) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8615/190001 [50:41:02<869:16:28, 17.25s/it]wandb-core(36716) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8616/190001 [50:41:20<875:46:17, 17.38s/it]wandb-core(36718) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8617/190001 [50:41:35<853:00:55, 16.93s/it]wandb-core(36720) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8618/190001 [50:41:52<842:44:00, 16.73s/it]wandb-core(36721) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8619/190001 [50:42:07<813:50:53, 16.15s/it]wandb-core(36737) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8620/190001 [50:42:23<815:22:09, 16.18s/it]wandb-core(36746) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8621/190001 [50:42:40<834:02:36, 16.55s/it]wandb-core(36768) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36795) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8622/190001 [50:43:01<901:10:48, 17.89s/it]wandb-core(36799) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8623/190001 [50:43:17<869:49:53, 17.26s/it]wandb-core(36801) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8624/190001 [50:43:34<869:44:04, 17.26s/it]wandb-core(36808) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8625/190001 [50:43:53<890:53:26, 17.68s/it]wandb-core(36812) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8626/190001 [50:44:08<847:59:22, 16.83s/it]wandb-core(36821) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8627/190001 [50:44:23<821:44:47, 16.31s/it]wandb-core(36823) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8628/190001 [50:44:40<835:50:47, 16.59s/it]wandb-core(36834) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8629/190001 [50:44:56<822:27:18, 16.32s/it]wandb-core(36836) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8630/190001 [50:45:11<808:16:48, 16.04s/it]wandb-core(36840) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8631/190001 [50:45:28<813:56:56, 16.16s/it]wandb-core(36847) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8632/190001 [50:45:44<810:42:46, 16.09s/it]wandb-core(36852) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8633/190001 [50:45:59<795:47:50, 15.80s/it]wandb-core(36856) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8634/190001 [50:46:13<780:14:50, 15.49s/it]wandb-core(36864) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8635/190001 [50:46:28<761:25:25, 15.11s/it]wandb-core(36866) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36894) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8636/190001 [50:46:49<862:28:40, 17.12s/it]wandb-core(36899) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8637/190001 [50:47:06<850:25:27, 16.88s/it]wandb-core(36904) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8638/190001 [50:47:24<866:42:35, 17.20s/it]wandb-core(36909) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8639/190001 [50:47:44<907:34:53, 18.02s/it]wandb-core(36929) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(36952) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8640/190001 [50:48:01<897:04:46, 17.81s/it]wandb-core(36958) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8641/190001 [50:48:17<869:23:56, 17.26s/it]wandb-core(36965) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8642/190001 [50:48:34<872:13:11, 17.31s/it]wandb-core(36971) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8643/190001 [50:48:53<897:08:02, 17.81s/it]wandb-core(36987) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8644/190001 [50:49:09<867:35:20, 17.22s/it]wandb-core(36998) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8645/190001 [50:49:26<855:13:00, 16.98s/it]wandb-core(37001) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8646/190001 [50:49:42<845:13:06, 16.78s/it]wandb-core(37010) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8647/190001 [50:49:59<852:16:55, 16.92s/it]wandb-core(37020) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8648/190001 [50:50:15<838:32:10, 16.65s/it]wandb-core(37024) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37029) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8649/190001 [50:50:32<847:41:16, 16.83s/it]wandb-core(37050) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8650/190001 [50:50:49<848:56:02, 16.85s/it]wandb-core(37056) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8651/190001 [50:51:05<829:12:33, 16.46s/it]wandb-core(37057) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8652/190001 [50:51:21<822:56:23, 16.34s/it]wandb-core(37066) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8653/190001 [50:51:37<814:55:34, 16.18s/it]wandb-core(37069) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8654/190001 [50:51:54<833:41:15, 16.55s/it]wandb-core(37079) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8655/190001 [50:52:09<809:42:57, 16.07s/it]wandb-core(37080) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8656/190001 [50:52:23<782:39:43, 15.54s/it]wandb-core(37086) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8657/190001 [50:52:39<776:04:04, 15.41s/it]wandb-core(37097) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37127) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8658/190001 [50:53:01<883:48:12, 17.55s/it]wandb-core(37145) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8659/190001 [50:53:24<964:41:47, 19.15s/it]wandb-core(37148) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8660/190001 [50:53:40<921:46:18, 18.30s/it]wandb-core(37151) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37155) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8661/190001 [50:54:01<959:50:27, 19.05s/it]wandb-core(37157) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8662/190001 [50:54:17<909:22:14, 18.05s/it]wandb-core(37173) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8663/190001 [50:54:36<921:21:19, 18.29s/it]wandb-core(37178) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8664/190001 [50:54:53<901:53:46, 17.90s/it]wandb-core(37182) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8665/190001 [50:55:08<864:29:58, 17.16s/it]wandb-core(37188) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8666/190001 [50:55:24<840:39:05, 16.69s/it]wandb-core(37192) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8667/190001 [50:55:38<810:00:03, 16.08s/it]wandb-core(37198) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8668/190001 [50:55:55<823:23:34, 16.35s/it]wandb-core(37200) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8669/190001 [50:56:09<789:39:37, 15.68s/it]wandb-core(37204) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8670/190001 [50:56:25<788:02:25, 15.65s/it]wandb-core(37206) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8671/190001 [50:56:39<768:42:25, 15.26s/it]wandb-core(37217) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8672/190001 [50:56:55<776:49:54, 15.42s/it]wandb-core(37225) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8673/190001 [50:57:11<784:03:45, 15.57s/it]wandb-core(37231) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8674/190001 [50:57:29<825:30:30, 16.39s/it]wandb-core(37245) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8675/190001 [50:57:44<801:55:06, 15.92s/it]wandb-core(37248) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37265) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8676/190001 [50:58:02<833:31:52, 16.55s/it]wandb-core(37283) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8677/190001 [50:58:18<816:22:16, 16.21s/it]wandb-core(37291) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8678/190001 [50:58:36<846:26:51, 16.81s/it]wandb-core(37292) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8679/190001 [50:58:52<837:23:16, 16.63s/it]wandb-core(37295) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8680/190001 [50:59:09<845:58:28, 16.80s/it]wandb-core(37301) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8681/190001 [50:59:25<831:36:54, 16.51s/it]wandb-core(37303) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8682/190001 [50:59:41<819:17:02, 16.27s/it]wandb-core(37312) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8683/190001 [50:59:56<810:35:32, 16.09s/it]wandb-core(37329) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8684/190001 [51:00:15<844:50:15, 16.77s/it]wandb-core(37354) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37378) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8685/190001 [51:00:42<1007:26:10, 20.00s/it]wandb-core(37421) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37446) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8686/190001 [51:01:11<1145:27:12, 22.74s/it]wandb-core(37466) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37492) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8687/190001 [51:01:37<1181:05:20, 23.45s/it]wandb-core(37504) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8688/190001 [51:01:57<1131:04:58, 22.46s/it]wandb-core(37506) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37509) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8689/190001 [51:02:16<1086:57:28, 21.58s/it]wandb-core(37531) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8690/190001 [51:02:40<1116:43:40, 22.17s/it]wandb-core(37534) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37539) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8691/190001 [51:03:04<1144:35:45, 22.73s/it]wandb-core(37541) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8692/190001 [51:03:24<1101:10:48, 21.86s/it]wandb-core(37543) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8693/190001 [51:03:43<1062:46:17, 21.10s/it]wandb-core(37549) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37562) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37566) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8694/190001 [51:04:21<1311:01:36, 26.03s/it]wandb-core(37578) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37614) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8695/190001 [51:04:50<1355:55:05, 26.92s/it]wandb-core(37619) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37620) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8696/190001 [51:05:21<1429:29:57, 28.38s/it]wandb-core(37638) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8697/190001 [51:05:45<1352:13:10, 26.85s/it]wandb-core(37641) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37668) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37672) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8698/190001 [51:06:19<1462:19:36, 29.04s/it]wandb-core(37675) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37679) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8699/190001 [51:06:47<1451:52:05, 28.83s/it]wandb-core(37697) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37701) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8700/190001 [51:07:17<1467:42:05, 29.14s/it]wandb-core(37712) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+                                                             [TRAIN] Iter: 18700 Loss: 0.04337162524461746  PSNR: 16.459142684936523
+  5%|▍         | 8700/190001 [51:07:36<1467:42:05, 29.14s/it]  5%|▍         | 8701/190001 [51:07:36<1309:58:36, 26.01s/it]wandb-core(37715) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8702/190001 [51:07:59<1268:25:28, 25.19s/it]wandb-core(37724) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37740) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8703/190001 [51:08:27<1311:26:32, 26.04s/it]wandb-core(37798) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37831) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37847) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8704/190001 [51:09:04<1478:51:11, 29.37s/it]wandb-core(37850) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8705/190001 [51:09:26<1367:30:03, 27.15s/it]wandb-core(37854) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8706/190001 [51:09:45<1245:00:24, 24.72s/it]wandb-core(37871) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37891) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8707/190001 [51:10:10<1240:07:40, 24.63s/it]wandb-core(37893) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37900) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8708/190001 [51:10:35<1255:33:25, 24.93s/it]wandb-core(37905) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8709/190001 [51:10:54<1159:36:43, 23.03s/it]wandb-core(37909) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8710/190001 [51:11:13<1098:32:29, 21.81s/it]wandb-core(37933) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37942) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8711/190001 [51:11:32<1055:03:13, 20.95s/it]wandb-core(37952) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8712/190001 [51:11:49<1006:10:25, 19.98s/it]wandb-core(37955) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8713/190001 [51:12:06<949:23:33, 18.85s/it] wandb-core(37961) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8714/190001 [51:12:24<943:50:34, 18.74s/it]wandb-core(37965) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8715/190001 [51:12:41<921:11:49, 18.29s/it]wandb-core(37966) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8716/190001 [51:12:55<852:11:27, 16.92s/it]wandb-core(37972) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8717/190001 [51:13:15<892:54:14, 17.73s/it]wandb-core(37977) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(37978) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8718/190001 [51:13:32<887:34:06, 17.63s/it]wandb-core(37980) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8719/190001 [51:13:48<857:54:15, 17.04s/it]wandb-core(37987) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8720/190001 [51:14:06<881:56:53, 17.51s/it]wandb-core(37988) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8721/190001 [51:14:19<807:34:27, 16.04s/it]wandb-core(37990) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8722/190001 [51:14:34<797:46:54, 15.84s/it]wandb-core(37994) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8723/190001 [51:14:49<787:05:25, 15.63s/it]wandb-core(38000) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8724/190001 [51:15:05<789:02:50, 15.67s/it]wandb-core(38004) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8725/190001 [51:15:21<788:07:45, 15.65s/it]wandb-core(38036) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8726/190001 [51:15:39<829:13:52, 16.47s/it]wandb-core(38082) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38097) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8727/190001 [51:16:12<1080:27:59, 21.46s/it]wandb-core(38107) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38114) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8728/190001 [51:16:39<1158:01:53, 23.00s/it]wandb-core(38122) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8729/190001 [51:16:57<1087:32:33, 21.60s/it]wandb-core(38128) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8730/190001 [51:17:14<1016:57:29, 20.20s/it]wandb-core(38131) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8731/190001 [51:17:29<931:45:49, 18.50s/it] wandb-core(38135) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38139) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8732/190001 [51:17:46<911:55:28, 18.11s/it]wandb-core(38151) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8733/190001 [51:18:05<919:40:07, 18.26s/it]wandb-core(38153) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8734/190001 [51:18:22<900:28:30, 17.88s/it]wandb-core(38155) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8735/190001 [51:18:38<884:18:38, 17.56s/it]wandb-core(38156) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8736/190001 [51:18:54<850:17:58, 16.89s/it]wandb-core(38161) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8737/190001 [51:19:10<844:39:08, 16.78s/it]wandb-core(38163) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8738/190001 [51:19:26<828:41:57, 16.46s/it]wandb-core(38166) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8739/190001 [51:19:42<819:42:53, 16.28s/it]wandb-core(38176) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8740/190001 [51:19:57<797:17:30, 15.83s/it]wandb-core(38196) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8741/190001 [51:20:13<806:04:53, 16.01s/it]wandb-core(38198) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8742/190001 [51:20:27<770:22:45, 15.30s/it]wandb-core(38200) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8743/190001 [51:20:41<753:02:48, 14.96s/it]wandb-core(38201) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8744/190001 [51:20:58<787:45:30, 15.65s/it]wandb-core(38206) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8745/190001 [51:21:14<792:24:52, 15.74s/it]wandb-core(38208) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38210) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8746/190001 [51:21:31<809:17:09, 16.07s/it]wandb-core(38224) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8747/190001 [51:21:52<886:24:32, 17.61s/it]wandb-core(38248) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8748/190001 [51:22:10<896:16:50, 17.80s/it]wandb-core(38258) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8749/190001 [51:22:27<874:43:16, 17.37s/it]wandb-core(38265) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8750/190001 [51:22:46<898:46:19, 17.85s/it]wandb-core(38282) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38285) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8751/190001 [51:23:03<887:58:07, 17.64s/it]wandb-core(38290) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8752/190001 [51:23:23<927:41:51, 18.43s/it]wandb-core(38294) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8753/190001 [51:23:42<934:05:45, 18.55s/it]wandb-core(38296) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38297) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8754/190001 [51:24:02<956:08:34, 18.99s/it]wandb-core(38299) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8755/190001 [51:24:19<927:15:49, 18.42s/it]wandb-core(38300) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8756/190001 [51:24:35<887:25:02, 17.63s/it]wandb-core(38308) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8757/190001 [51:24:52<880:33:09, 17.49s/it]wandb-core(38316) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8758/190001 [51:25:12<913:43:42, 18.15s/it]wandb-core(38341) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38346) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8759/190001 [51:25:32<943:23:42, 18.74s/it]wandb-core(38347) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8760/190001 [51:25:48<900:57:56, 17.90s/it]wandb-core(38348) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8761/190001 [51:26:03<859:42:03, 17.08s/it]wandb-core(38352) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8762/190001 [51:26:20<866:42:09, 17.22s/it]wandb-core(38359) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8763/190001 [51:26:33<799:07:02, 15.87s/it]wandb-core(38362) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8764/190001 [51:26:49<794:24:21, 15.78s/it]wandb-core(38369) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8765/190001 [51:27:06<812:11:18, 16.13s/it]wandb-core(38383) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8766/190001 [51:27:25<861:19:34, 17.11s/it]wandb-core(38387) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8767/190001 [51:27:39<818:56:26, 16.27s/it]wandb-core(38389) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8768/190001 [51:27:54<800:12:24, 15.90s/it]wandb-core(38390) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8769/190001 [51:28:08<766:36:48, 15.23s/it]wandb-core(38399) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8770/190001 [51:28:25<788:35:26, 15.66s/it]wandb-core(38407) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8771/190001 [51:28:39<772:45:37, 15.35s/it]wandb-core(38429) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8772/190001 [51:28:55<782:59:41, 15.55s/it]wandb-core(38435) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8773/190001 [51:29:12<804:34:24, 15.98s/it]wandb-core(38439) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38447) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8774/190001 [51:29:32<858:36:44, 17.06s/it]wandb-core(38454) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8775/190001 [51:29:47<822:38:59, 16.34s/it]wandb-core(38455) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8776/190001 [51:30:01<796:55:39, 15.83s/it]wandb-core(38476) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8777/190001 [51:30:18<814:05:58, 16.17s/it]wandb-core(38477) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8778/190001 [51:30:32<781:13:43, 15.52s/it]wandb-core(38478) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8779/190001 [51:30:46<754:08:21, 14.98s/it]  5%|▍         | 8780/190001 [51:31:00<746:34:37, 14.83s/it]wandb-core(38479) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8781/190001 [51:31:16<753:16:01, 14.96s/it]wandb-core(38486) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38489) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8782/190001 [51:31:32<771:10:21, 15.32s/it]wandb-core(38499) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8783/190001 [51:31:48<787:29:44, 15.64s/it]wandb-core(38508) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8784/190001 [51:32:14<942:00:01, 18.71s/it]wandb-core(38518) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8785/190001 [51:32:29<877:35:11, 17.43s/it]wandb-core(38523) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8786/190001 [51:32:46<873:05:49, 17.34s/it]wandb-core(38525) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38532) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8787/190001 [51:33:03<867:31:23, 17.23s/it]wandb-core(38534) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8788/190001 [51:33:18<846:19:38, 16.81s/it]wandb-core(38538) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8789/190001 [51:33:34<825:33:42, 16.40s/it]wandb-core(38540) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8790/190001 [51:33:53<860:45:38, 17.10s/it]wandb-core(38543) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8791/190001 [51:34:08<832:39:13, 16.54s/it]wandb-core(38545) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8792/190001 [51:34:24<823:47:01, 16.37s/it]wandb-core(38556) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8793/190001 [51:34:41<832:00:23, 16.53s/it]wandb-core(38595) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8794/190001 [51:34:59<851:10:51, 16.91s/it]wandb-core(38613) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38638) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8795/190001 [51:35:16<864:04:38, 17.17s/it]wandb-core(38644) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8796/190001 [51:35:33<861:33:55, 17.12s/it]wandb-core(38654) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8797/190001 [51:35:51<865:47:45, 17.20s/it]wandb-core(38656) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8798/190001 [51:36:04<802:07:11, 15.94s/it]wandb-core(38657) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8799/190001 [51:36:17<756:34:04, 15.03s/it]wandb-core(38662) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8800/190001 [51:36:33<770:02:49, 15.30s/it]wandb-core(38664) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+                                                            [TRAIN] Iter: 18800 Loss: 0.04089444503188133  PSNR: 16.691238403320312
+  5%|▍         | 8800/190001 [51:36:47<770:02:49, 15.30s/it]  5%|▍         | 8801/190001 [51:36:47<763:36:53, 15.17s/it]wandb-core(38668) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8802/190001 [51:37:05<797:28:30, 15.84s/it]wandb-core(38671) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8803/190001 [51:37:20<789:50:12, 15.69s/it]wandb-core(38679) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8804/190001 [51:37:37<811:34:59, 16.12s/it]wandb-core(38694) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8805/190001 [51:37:54<823:31:31, 16.36s/it]wandb-core(38707) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8806/190001 [51:38:10<816:45:24, 16.23s/it]wandb-core(38710) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8807/190001 [51:38:26<804:50:05, 15.99s/it]wandb-core(38728) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8808/190001 [51:38:42<805:47:35, 16.01s/it]wandb-core(38759) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8809/190001 [51:38:56<788:09:05, 15.66s/it]wandb-core(38770) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8810/190001 [51:39:13<798:47:34, 15.87s/it]wandb-core(38773) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8811/190001 [51:39:28<793:42:36, 15.77s/it]wandb-core(38776) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38790) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8812/190001 [51:39:47<833:48:07, 16.57s/it]wandb-core(38795) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8813/190001 [51:40:04<843:56:22, 16.77s/it]wandb-core(38803) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8814/190001 [51:40:22<861:42:33, 17.12s/it]wandb-core(38807) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8815/190001 [51:40:39<859:55:27, 17.09s/it]wandb-core(38828) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8816/190001 [51:40:57<879:17:02, 17.47s/it]wandb-core(38839) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8817/190001 [51:41:14<873:14:12, 17.35s/it]wandb-core(38841) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8818/190001 [51:41:29<838:25:34, 16.66s/it]wandb-core(38847) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8819/190001 [51:41:44<802:34:14, 15.95s/it]wandb-core(38848) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8820/190001 [51:41:59<795:38:37, 15.81s/it]wandb-core(38850) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8821/190001 [51:42:13<762:45:34, 15.16s/it]wandb-core(38851) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8822/190001 [51:42:28<758:11:23, 15.07s/it]wandb-core(38859) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38872) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8823/190001 [51:42:46<802:21:50, 15.94s/it]wandb-core(38876) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8824/190001 [51:43:03<824:28:26, 16.38s/it]wandb-core(38884) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8825/190001 [51:43:19<822:19:24, 16.34s/it]wandb-core(38896) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8826/190001 [51:43:44<954:20:19, 18.96s/it]wandb-core(38928) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(38939) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(39559) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8827/190001 [51:44:23<1244:44:43, 24.73s/it]wandb-core(40200) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(40581) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8828/190001 [51:44:56<1378:33:21, 27.39s/it]wandb-core(40619) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(40624) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8829/190001 [51:45:25<1395:44:52, 27.73s/it]wandb-core(40639) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(40653) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8830/190001 [51:46:00<1507:45:01, 29.96s/it]wandb-core(40664) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(40675) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8831/190001 [51:46:29<1494:47:56, 29.70s/it]wandb-core(40715) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(40746) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(40752) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8832/190001 [51:47:04<1571:05:45, 31.22s/it]wandb-core(40756) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8833/190001 [51:47:24<1402:04:17, 27.86s/it]wandb-core(40765) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(40793) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8834/190001 [51:47:56<1471:48:49, 29.25s/it]wandb-core(40849) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(40865) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8835/190001 [51:48:22<1411:11:32, 28.04s/it]wandb-core(40869) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8836/190001 [51:48:40<1260:26:44, 25.05s/it]wandb-core(40872) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8837/190001 [51:48:55<1111:46:54, 22.09s/it]wandb-core(40875) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8838/190001 [51:49:09<998:42:32, 19.85s/it] wandb-core(40878) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8839/190001 [51:49:26<948:25:40, 18.85s/it]wandb-core(40880) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8840/190001 [51:49:39<862:30:02, 17.14s/it]wandb-core(40887) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8841/190001 [51:49:53<819:48:04, 16.29s/it]wandb-core(40892) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8842/190001 [51:50:10<818:32:05, 16.27s/it]wandb-core(40893) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8843/190001 [51:50:21<751:36:34, 14.94s/it]wandb-core(40895) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8844/190001 [51:50:34<722:15:41, 14.35s/it]wandb-core(40897) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8845/190001 [51:50:51<750:56:51, 14.92s/it]wandb-core(40898) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8846/190001 [51:51:04<730:57:02, 14.53s/it]wandb-core(40901) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8847/190001 [51:51:18<712:58:18, 14.17s/it]wandb-core(40903) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8848/190001 [51:51:32<719:30:19, 14.30s/it]wandb-core(40904) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8849/190001 [51:51:47<729:01:43, 14.49s/it]  5%|▍         | 8850/190001 [51:52:00<708:05:38, 14.07s/it]wandb-core(40905) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8851/190001 [51:52:16<727:24:36, 14.46s/it]wandb-core(40911) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+wandb-core(40924) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8852/190001 [51:52:32<755:00:12, 15.00s/it]wandb-core(40931) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8853/190001 [51:52:46<747:57:45, 14.86s/it]wandb-core(40950) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8854/190001 [51:53:04<792:49:09, 15.76s/it]wandb-core(40958) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8855/190001 [51:53:21<811:40:02, 16.13s/it]wandb-core(40976) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8856/190001 [51:53:36<793:07:04, 15.76s/it]wandb-core(40979) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8857/190001 [51:53:53<813:11:36, 16.16s/it]wandb-core(41005) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8858/190001 [51:54:09<814:35:27, 16.19s/it]wandb-core(41008) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+  5%|▍         | 8859/190001 [51:54:30<879:13:01, 17.47s/it]wandb-core(41042) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
