@@ -66,3 +66,12 @@ The training script automatically selects the compute device:
 
 You do not need to manually pass a --device flag; the script will choose the best available option at runtime.
 
+
+how to fine tune a relative dataset:
+
+python run_nerf.py \
+  --config configs/truedepth2.txt \
+  --expname blender_paper_truedepth2_finetune \
+  --datadir ./data/trueDepth_2 \
+  --dataset_type blender \
+  --ft_path ./logs/blender_paper_truedepth1/200000.tar
