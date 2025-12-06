@@ -251,11 +251,16 @@ def create_nerf(args, device):
     expname = args.expname
 
     ##########################
+    # 是否是 finetune モード（別データセットに対して微調整）
+
+    is_finetune = args.ft_path is not None and args.ft_path != "None"
 
     # Load checkpoints
-    if args.ft_path is not None and args.ft_path != "None":
+    if is_finetune:
+        # finetune のときは、明示的に指定された ckpt だけ読む
         ckpts = [args.ft_path]
     else:
+        # いつもの resume: logs/expname/ 以下から一番新しい ckpt を探す
         ckpts = [
             os.path.join(basedir, expname, f)
             for f in sorted(os.listdir(os.path.join(basedir, expname)))
@@ -263,18 +268,51 @@ def create_nerf(args, device):
         ]
 
     print("Found ckpts", ckpts)
+    start = 0  # デフォルトは 0 から
+
     if len(ckpts) > 0 and not args.no_reload:
         ckpt_path = ckpts[-1]
         print("Reloading from", ckpt_path)
         ckpt = torch.load(ckpt_path)
 
-        start = ckpt["global_step"]
-        optimizer.load_state_dict(ckpt["optimizer_state_dict"])
+        if is_finetune:
+            # ★ finetune: 重みだけ使う。optimizer や global_step は捨てる
+            print("Finetune mode: load weights only, reset optimizer and global_step.")
+            model.load_state_dict(ckpt["network_fn_state_dict"])
+            if model_fine is not None:
+                model_fine.load_state_dict(ckpt["network_fine_state_dict"])
+            # start は 0 のまま、optimizer も新規
+        else:
+            # ★ 通常の resume: 途中から再開
+            start = ckpt["global_step"]
+            optimizer.load_state_dict(ckpt["optimizer_state_dict"])
+            model.load_state_dict(ckpt["network_fn_state_dict"])
+            if model_fine is not None:
+                model_fine.load_state_dict(ckpt["network_fine_state_dict"])
 
-        # Load model
-        model.load_state_dict(ckpt["network_fn_state_dict"])
-        if model_fine is not None:
-            model_fine.load_state_dict(ckpt["network_fine_state_dict"])
+    # # Load checkpoints
+    # if args.ft_path is not None and args.ft_path != "None":
+    #     ckpts = [args.ft_path]
+    # else:
+    #     ckpts = [
+    #         os.path.join(basedir, expname, f)
+    #         for f in sorted(os.listdir(os.path.join(basedir, expname)))
+    #         if "tar" in f
+    #     ]
+
+    # print("Found ckpts", ckpts)
+    # if len(ckpts) > 0 and not args.no_reload:
+    #     ckpt_path = ckpts[-1]
+    #     print("Reloading from", ckpt_path)
+    #     ckpt = torch.load(ckpt_path)
+
+    #     start = ckpt["global_step"]
+    #     optimizer.load_state_dict(ckpt["optimizer_state_dict"])
+
+    #     # Load model
+    #     model.load_state_dict(ckpt["network_fn_state_dict"])
+    #     if model_fine is not None:
+    #         model_fine.load_state_dict(ckpt["network_fine_state_dict"])
 
     ##########################
 

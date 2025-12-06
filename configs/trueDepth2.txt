@@ -1,12 +1,12 @@
 # Logging & data
-expname = blender_paper_truedepth2
+expname = blender_paper_truedepth2_ft_from1
 basedir = ./logs
 datadir = ./data/trueDepth_2
 dataset_type = blender
 
 # Finetune from pretrained model on trueDepth_1
-ft_path = ./logs/blender_paper_truedepth1/0200000.tar
-no_reload = False
+ft_path = ./logs/blender_paper_truedepth1/200000.tar
+no_reload = False     # 保持 False，表示要加载 ckpt
 
 # Training options
 no_batching = True
@@ -19,9 +19,11 @@ N_samples = 32
 N_importance = 32
 N_rand = 512
 
-# Learning rate (smaller for finetuning)
-lrate = 5e-5
-lrate_decay = 500
+# Learning rate
+# 原来 5e-5 对“继续在同一数据集上微调”还好，
+# 现在是“新数据集从 0 开始训”，可以稍微大一点
+lrate = 1e-4          # 建议先试 1e-4，不够再往上调到 5e-4
+lrate_decay = 500     # 先保持不变够用
 
 # Render & logging frequency
 render_factor = 4
