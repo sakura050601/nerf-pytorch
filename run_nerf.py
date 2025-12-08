@@ -1219,7 +1219,10 @@ def train():
             rgb_np = rgb_test.cpu().numpy()
             wandb.log(
                 {
-                    "val_rgb": wandb.Image(to8b(rgb_np)),
+                    "val_rgb": wandb.Image(
+                        to8b(rgb_np), caption=f"orig_idx = {int(img_i)}"
+                    ),
+                    "val_img_idx": int(img_i),  # 额外记录一个数值，方便在表格里筛选
                 },
                 step=global_step,
             )
