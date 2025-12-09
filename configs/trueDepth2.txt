@@ -3,7 +3,7 @@ basedir = ./logs
 datadir = ./data/trueDepth_2
 dataset_type = blender
 
-ft_path = ./logs/blender_paper_truedepth1/0200000.tar
+ft_path = None
 no_reload = False
 
 no_batching = True
