@@ -82,47 +82,95 @@ You can adapt the folder names as needed as long as your configs (configs/*.txt)
 
 ⸻
 
-3. Converting TrueDepth Datasets
+## 3. Converting TrueDepth Datasets
 
-Raw TrueDepth data (from your AR capture app) is assumed to have files like:
-	•	pose_i.txt (px, py, pz, qx, qy, qz, qw)
-	•	intrinsics_i.txt (fx, fy, cx, cy)
-	•	color_i.png
-	•	depth_i.png
+Raw TrueDepth data (from the AR capture app) is assumed to have files like:
 
-Use convert_dataset.py to convert them into NeRF-style datasets.
+- `pose_i.txt` (px, py, pz, qx, qy, qz, qw)
+- `intrinsics_i.txt` (fx, fy, cx, cy)
+- `color_i.png`
+- `depth_i.png`
 
-3.1 Convert trueDepth_1
+Use `convert_dataset.py` to convert them into NeRF-style datasets.
 
+---
+
+### 3.1 Convert `trueDepth_1` (no background removal)
+
+```bash
 python convert_dataset.py \
   --input_dir source_data/trueDepth_1 \
   --output_dir data/trueDepth_1 \
   --train_ratio 0.34 --val_ratio 0.33 --test_ratio 0.33
 
 This creates:
-	•	data/trueDepth_1/train/…
-	•	data/trueDepth_1/val/…
-	•	data/trueDepth_1/test/…
+	•	data/trueDepth_1/train/...
+	•	data/trueDepth_1/val/...
+	•	data/trueDepth_1/test/...
 	•	data/trueDepth_1/transforms_train.json
 	•	data/trueDepth_1/transforms_val.json
 	•	data/trueDepth_1/transforms_test.json
 
 with:
-	•	color images: r_<index>.png
+	•	color images: r_<index>.png  (copied directly from color_<index>.png)
 	•	depth maps: r_<index>_depth_0001.png
-	•	normal maps (estimated): r_<index>_normal_0001.png
+	•	normal maps (estimated from depth): r_<index>_normal_0001.png
 
-3.2 Convert trueDepth_2
+This is the standard “no background removal” path.
+
+⸻
+
+3.2 Convert trueDepth_2 (example with background removal)
+
+The converter can optionally apply background removal to each RGB image before
+copying it into the NeRF dataset, using rembg￼.
+
+First, make sure rembg is installed in your Python environment (and typically
+with numpy<2):
+
+# Example (conda):
+conda create -n arscanner python=3.10
+conda activate arscanner
+
+pip install numpy<2 pillow
+pip install rembg
+
+Then you can run:
 
 python convert_dataset.py \
   --input_dir source_data/trueDepth_2 \
   --output_dir data/trueDepth_2 \
-  --train_ratio 1 --val_ratio 1 --test_ratio 1
+  --train_ratio 1 --val_ratio 1 --test_ratio 1 \
+  --remove_bg
 
-This exposes the entire dataset to all splits (train/val/test). This is convenient for small experiments or for cases where you want flexible evaluation on the same frames.
+This will create:
+	•	data/trueDepth_2/train/...
+	•	data/trueDepth_2/val/...
+	•	data/trueDepth_2/test/...
+	•	data/trueDepth_2/transforms_train.json
+	•	data/trueDepth_2/transforms_val.json
+	•	data/trueDepth_2/transforms_test.json
+
+with:
+	•	color images: r_<index>.png
+	•	without --remove_bg: direct copy of color_<index>.png
+	•	with --remove_bg: rembg.remove() is applied to color_<index>.png, and the
+background-removed result (RGBA PNG) is saved as r_<index>.png
+	•	depth maps: r_<index>_depth_0001.png
+	•	normal maps (estimated from depth): r_<index>_normal_0001.png
+
+Using --train_ratio 1 --val_ratio 1 --test_ratio 1 exposes the entire dataset to all
+splits (train/val/test). This is convenient for small experiments or when you want
+flexible evaluation on the same frames.
+
+Note:
+	•	If --remove_bg is set but rembg is not installed, the script will raise an
+ImportError and tell you to install rembg.
+	•	Depth and normal images are not affected by --remove_bg; only r_<index>.png
+is changed.
+
 
 ⸻
-
 4. Training NeRF
 
 4.1 Train on trueDepth_1
