@@ -169,6 +169,50 @@ ImportError and tell you to install rembg.
 	•	Depth and normal images are not affected by --remove_bg; only r_<index>.png
 is changed.
 
+##### 3.3.2 Installing `onnxruntime` explicitly
+
+In most cases, installing `rembg` will also pull a compatible `onnxruntime` wheel automatically.
+
+If you still see import errors related to `onnxruntime`, you can install it explicitly:
+
+**CPU-only (Windows / Linux):**
+
+```bash
+pip install "numpy<2.0,>=1.26.0" --force-reinstall
+pip install --force-reinstall "onnxruntime>=1.18.0" rembg
+# 1. Downgrade NumPy to a 1.x series that is widely supported by onnxruntime
+pip install "numpy<2.0,>=1.26.0" --force-reinstall
+
+# 2. Reinstall rembg so that it links against the current NumPy
+pip install --force-reinstall rembg
+
+##### 3.3.2 Installing `onnxruntime` explicitly
+
+In most cases, installing `rembg` will also pull a compatible `onnxruntime` wheel automatically.
+
+If you still see import errors related to `onnxruntime`, you can install it explicitly:
+
+**CPU-only (Windows / Linux):**
+
+```bash
+pip install "numpy<2.0,>=1.26.0" --force-reinstall
+pip install --force-reinstall "onnxruntime>=1.18.0" rembg
+
+macOS / Apple Silicon (M1/M2/M3):
+pip install "numpy<2.0,>=1.26.0" --force-reinstall
+pip install --force-reinstall "onnxruntime-silicon>=1.18.0" rembg
+
+
+Then, quickly test that rembg imports correctly:
+python - << "EOF"
+try:
+    from rembg import remove
+    print("rembg OK:", remove)
+except Exception as e:
+    import traceback
+    traceback.print_exc()
+EOF
+
 
 ⸻
 4. Training NeRF
