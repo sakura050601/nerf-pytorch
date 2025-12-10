@@ -14,7 +14,13 @@ python convert_dataset.py \
 - 估计 normal 图
 - 生成 transforms_train.json / transforms_val.json / transforms_test.json
 """
+from PIL import Image
 
+# 可选：rembg 去背景
+try:
+    from rembg import remove as rembg_remove
+except ImportError:
+    rembg_remove = None
 import os
 import math
 import glob
@@ -215,7 +221,9 @@ def ensure_dir(path):
         os.makedirs(path, exist_ok=True)
 
 
-def process_split(split_name, indices, input_dir, out_root, camera_angle_x):
+def process_split(
+    split_name, indices, input_dir, out_root, camera_angle_x, use_rembg=False
+):
     """
     对一个 split(train/val/test)：
     - 拷贝并改名 color/depth -> r_i.* 系列
@@ -250,8 +258,24 @@ def process_split(split_name, indices, input_dir, out_root, camera_angle_x):
 
         # 拷贝 & 改名图片
         # 彩图：r_i.png
+        # out_color = os.path.join(out_dir, f"r_{i}.png")
+        # Image.open(color_path).save(out_color)
+        # 拷贝 & 改名图片（可选：先去背景）
         out_color = os.path.join(out_dir, f"r_{i}.png")
-        Image.open(color_path).save(out_color)
+
+        if use_rembg:
+            if rembg_remove is None:
+                raise ImportError(
+                    "rembg is not installed. Run `pip install rembg` or不要加 --remove_bg 参数。"
+                )
+            # 用 rembg 去背景，输出带 alpha 的 PNG
+            with Image.open(color_path) as img:
+                img = img.convert("RGBA")  # 保险起见转成 RGBA
+                img_nobg = rembg_remove(img)
+                img_nobg.save(out_color)
+        else:
+            # 原始逻辑：不做任何处理，直接拷贝
+            Image.open(color_path).save(out_color)
 
         # 深度：r_i_depth_0001.png
         out_depth = os.path.join(out_dir, f"r_{i}_depth_0001.png")
@@ -299,6 +323,11 @@ def main():
     parser.add_argument("--train_ratio", type=float, default=0.8)
     parser.add_argument("--val_ratio", type=float, default=0.1)
     parser.add_argument("--test_ratio", type=float, default=0.1)
+    parser.add_argument(
+        "--remove_bg",
+        action="store_true",
+        help="是否在拷贝 color_i.png 时先用 rembg 去掉背景",
+    )
 
     args = parser.parse_args()
 
@@ -331,9 +360,17 @@ def main():
         f"[INFO] split: train={len(train_idx)}, val={len(val_idx)}, test={len(test_idx)}"
     )
 
-    process_split("train", train_idx, input_dir, out_root, camera_angle_x)
-    process_split("val", val_idx, input_dir, out_root, camera_angle_x)
-    process_split("test", test_idx, input_dir, out_root, camera_angle_x)
+    use_rembg = args.remove_bg
+
+    process_split(
+        "train", train_idx, input_dir, out_root, camera_angle_x, use_rembg=use_rembg
+    )
+    process_split(
+        "val", val_idx, input_dir, out_root, camera_angle_x, use_rembg=use_rembg
+    )
+    process_split(
+        "test", test_idx, input_dir, out_root, camera_angle_x, use_rembg=use_rembg
+    )
 
     print("[DONE] dataset conversion finished.")
 
